@@ -23,7 +23,7 @@ jobs:
         run: |
           mkdir -p .github
           curl -sSL -o .github/gitleaks.toml https://raw.githubusercontent.com/scriptkidakash81/example/main/.github/gitleaks.toml
-          tail gitleaks.toml
+          tail .github/gitleaks.toml
     
       - name: Download and install latest Gitleaks
         run: |
