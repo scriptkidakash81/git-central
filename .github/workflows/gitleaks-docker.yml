@@ -1,6 +1,7 @@
 name: gitleaks-docker
 
 on:
+  workflow_call:
   pull_request:
     branches:
       - main
